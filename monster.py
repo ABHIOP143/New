@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext
 
 TELEGRAM_BOT_TOKEN = '7851059581:AAGizUcbMzML0WyM5FKGsF2vXGdWEU5_uno'
-ADMIN_USER_ID = [ 5195565978 , 7353797869 ]
+ADMIN_USER_ID = 5195565978
 USERS_FILE = 'users.txt'
 LOG_FILE = 'log.txt'
 attack_in_progress = False
